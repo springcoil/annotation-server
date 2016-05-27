@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/app.css" type="text/css">
+  </head>
+  <body>
+    <div class="point p0">R</div>
+    <div class="point p1">EU</div>
+    <div class="point p2">800</div>
+    <div class="point p3">700</div>
+    <div class="point p4">100</div>
+    <div class="point p5">W</div>
+    <img id="annotate-image" src="/image/{{ name }}">
+    <script>
+      var nextImage = '{{ next }}';
+      var prevImage = '{{ prev }}';
+      var points = {{ points|safe }};
+    </script>
+  </body>
+  <script src="/static/jquery-2.2.4.min.js"></script>
+  <script src="/static/annotate.js"></script>
+</html>

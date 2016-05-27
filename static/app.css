@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+div.point {
+    border-radius: 6px;
+    height: 2px;
+    width: 2px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#annotate-image {
+    cursor: crosshair;
+    height: 100%;
+}
+
+div.p0 {
+    border: 3px solid #f0f;
+}
+div.p1 {
+    border: 3px solid #9f9;
+}
+div.p2 {
+    border: 3px solid #f90;
+}
+div.p3 {
+    border: 3px solid #0cc;
+}
+div.p4 {
+    border: 3px solid #0ff;
+}
+div.p5 {
+    border: 3px solid #99f;
+}
